@@ -1,0 +1,37 @@
+{
+  "name": "js-project",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  },
+  "description": "Our node js project",
+  "main": "app.js",
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "nodemon": "2.0.4"
+  },
+  "author": "Anurag Mondal, Liza Rozario, Subhra Patra",
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7Ragnarok7/Node-Js-Project.git"
+  },
+  "keywords": [
+    "Node",
+    "Real-Time",
+    "Chat"
+  ],
+  "bugs": {
+    "url": "https://github.com/7Ragnarok7/Node-Js-Project/issues"
+  },
+  "homepage": "https://github.com/7Ragnarok7/Node-Js-Project#readme"
+}
