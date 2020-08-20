@@ -1,8 +1,32 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url(https://s3.envato.com/files/212542380/Dark%20Background%20%20%20%2001_preview1%20.JPG);
 }
 
-a {
-  color: #00B7FF;
+.left {
+  min-height: 87vh;
+  width: 46%;
+  float: left;
+  margin: 20px 0 20px 30px;
+  border-radius: 100px 0 0 100px;
+  background: linear-gradient(
+    to right,
+    rgba(53, 243, 15, 0.411),
+    rgba(8, 66, 189, 0.404)
+  );
+}
+.clear {
+  clear: both;
+}
+
+.right {
+  min-height: 87vh;
+  width: 46%;
+  float: right;
+  margin: 20px 30px 20px 0;
+  border-radius: 0 300px 300px 0;
+  background: linear-gradient(
+    to right,
+    rgba(233, 8, 147, 0.541),
+    rgba(46, 219, 11, 0.582)
+  );
 }
