@@ -1,32 +1,128 @@
 body {
-  background-image: url(https://s3.envato.com/files/212542380/Dark%20Background%20%20%20%2001_preview1%20.JPG);
+  background: url(https://ae01.alicdn.com/kf/HTB1N4ibNVXXXXcUXXXXq6xXFXXXU/Free-Ship-Nice-Home-Decor-Custom-Galaxy-Canvas-Poster-Stylish-Colorful-Out-Space-Wallpaper-Fashion-Wall.jpg);
+  background-size: 100%;
+  font-family: cursive;
+  font-size: 25px;
+}
+
+.heading {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.logo {
+  text-align: center;
 }
 
 .left {
-  min-height: 87vh;
-  width: 46%;
+  color: mintcream;
+  width: 42%;
   float: left;
   margin: 20px 0 20px 30px;
-  border-radius: 100px 0 0 100px;
-  background: linear-gradient(
-    to right,
-    rgba(53, 243, 15, 0.411),
-    rgba(8, 66, 189, 0.404)
-  );
-}
-.clear {
-  clear: both;
+  border-radius: 300px 0 0 300px;
+  text-align: right;
+  padding: 0 20px 0 40px;
+  background-color: rgba(7, 17, 102, 0.8);
 }
 
 .right {
-  min-height: 87vh;
-  width: 46%;
+  width: 42%;
   float: right;
   margin: 20px 30px 20px 0;
+  padding: 30px 40px 0 20px;
+  text-align: top;
   border-radius: 0 300px 300px 0;
-  background: linear-gradient(
-    to right,
-    rgba(233, 8, 147, 0.541),
-    rgba(46, 219, 11, 0.582)
-  );
+  background-color: rgba(7, 17, 102, 0.8);
+  color: mintcream;
+}
+.register {
+  width: 40%;
+  margin: 0 0 70px 0;
+  float:right;
+  padding: 0 0 0 20px;
+  text-align: left;
+  border-left-style: dotted;
+  border-width: 7px;
+  border-color: orangered;
+  color: mintcream;
+}
+
+.form {
+  width: 40%;
+  text-align: center;
+  float: center;
+  margin: 0 auto;
+  display: block;
+  border-radius: 100px 100px 100px 100px;
+  background: rgba(7, 17, 102, 0.8);
+}
+form {
+  display: inline-block;
+  text-align: left;
+}
+label {
+  color: mintcream;
+  text-align: left;
+  padding: 10px;
+}
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 75%;
+  height: 35px;
+  display: inline-block;
+  border: 5px solid rgb(0, 162, 255);
+  padding: 10px;
+  color: red;
+  border-radius: 25px;
+  box-sizing: border-box;
+  font-size: 11px;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: width 0.4s ease-in-out;
+}
+input[type="text"]:focus {
+  width: 95%;
+}
+input[type="tel"]:focus {
+  width: 95%;
+}
+input[type="email"]:focus {
+  width: 95%;
+}
+input[type="password"]:focus {
+  width: 95%;
+}
+.button {
+  text-align: center;
+  display: inline-block;
+  margin: 15px 0 0 25px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 100px;
+}
+.login {
+  background-color: red;
+  color: mintcream;
+  border: 2px solid black;
+}
+.login:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+.Signup {
+  background-color: #008cba;
+  color: mintcream;
+  border: 2px solid black;
+}
+
+.Signup:hover {
+  background-color: #4caf50;
+  color: white;
 }

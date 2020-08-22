@@ -2,17 +2,42 @@
 
 <html>
   <head>
-    <title>Login to Snapcat</title>
+    <title> Login to Dot.Chat</title>
     <link rel="stylesheet" href="stylesheets/style.css" />
   </head>
 
   <body>
-    <div class="main">
-      <div class="left"></div>
+    <section class="main">
+      <div class="left">
+        <header class="logo">
+          <img src="" alt=""> 
+          <h1 style="text-align: right;">Dot.Chat.Dot.Com</h1>
+        </header>
+        <div class="left-content">
+        <h2 class="heading">
+          Welcome to <u style="font-style: italic; font-weight: bold; font-family: Verdana, Geneva, Tahoma, sans-serif;">{...DOT-CHAT...}</u>
+        </h2>
+        <p style="padding-top: 30px; text-align: right"> where the world is your friend.</p>
+        </div>
+      </div>
 
-     
-
-      <div class="right"></div>
-    </div>
+      <div class="right">
+      <header>
+        <h1> Login Below </h1>
+      </header>          
+        <form style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 18px; font-weight: bold;">
+              <label for="username">Username:</label>
+              <input type="text" id="username" placeholder="Username/Email" required><br><br>
+              <label for="password">Password:</label>
+              <input type="password" id="password" placeholder="Password"required><br>
+              <button class="button login">Login</button><br>
+        </form>
+        <div class="register">
+            <p>Don't have an account yet? </p>
+            Sign Up below.
+          <button class="button Signup">Sign Up</button>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
