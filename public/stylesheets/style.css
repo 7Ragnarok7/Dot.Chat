@@ -6,8 +6,11 @@ body {
 }
 
 .heading {
-  text-align: left;
-  padding-left: 10px;
+  text-align: right;
+  padding-left: 7px;
+  font-style: italic;
+  font-weight: bold; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .logo {
@@ -23,6 +26,7 @@ body {
   text-align: right;
   padding: 0 20px 0 40px;
   background-color: rgba(7, 17, 102, 0.8);
+  font-size: 20px;
 }
 
 .right {
@@ -35,9 +39,18 @@ body {
   background-color: rgba(7, 17, 102, 0.8);
   color: mintcream;
 }
+
+.loginform{
+  color: mintcream;
+  width: 40%;
+  float: left;
+  margin: 0 10px 5px 0;
+  text-align: left;
+}
+
 .register {
   width: 40%;
-  margin: 0 0 70px 0;
+  margin: 70px 0 0 0 ;
   float:right;
   padding: 0 0 0 20px;
   text-align: left;
@@ -51,6 +64,11 @@ body {
   width: 40%;
   text-align: center;
   float: center;
+  font-style: italic;
+  font-size:16px;
+  font-weight:bold;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: mintcream;
   margin: 0 auto;
   display: block;
   border-radius: 100px 100px 100px 100px;
@@ -61,49 +79,54 @@ form {
   text-align: left;
 }
 label {
+  font-size:16px;
+  font-weight:bold;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
   color: mintcream;
   text-align: left;
   padding: 10px;
+  margin: 5px 100px 10px 0;
 }
 input[type="text"],
 input[type="tel"],
 input[type="email"],
 input[type="password"],
 select {
-  width: 75%;
   height: 35px;
   display: inline-block;
+  margin: 5px 100px 10px 0;
   border: 5px solid rgb(0, 162, 255);
   padding: 10px;
-  color: red;
   border-radius: 25px;
   box-sizing: border-box;
-  font-size: 11px;
+  font-size: 14px;
+  font-weight: bold;
   font-style: italic;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   transition: width 0.4s ease-in-out;
 }
 input[type="text"]:focus {
-  width: 95%;
+  width: 100%;
 }
 input[type="tel"]:focus {
-  width: 95%;
+  width: 100%;
 }
 input[type="email"]:focus {
-  width: 95%;
+  width: 100%;
 }
 input[type="password"]:focus {
-  width: 95%;
+  width: 100%;
 }
 .button {
   text-align: center;
   display: inline-block;
-  margin: 15px 0 0 25px;
+  margin: 5px 0 10px 15px;
   font-size: 14px;
   font-weight: bold;
   padding: 5px 10px;
   transition-duration: 0.4s;
-  cursor: pointer;
+  cursor:  pointer;
   border-radius: 100px;
 }
 .login {
