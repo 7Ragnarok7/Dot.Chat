@@ -7,36 +7,41 @@
         <link rel="stylesheet" href="stylesheets/style.css" />
     </head>
     <body>
-        <div class= "form">
-            <br><p>Welcome to Dot.Chat.Dot.Com<br>Sign up below :D</p>
-            <form> 
-                <label for="fname">First name:</label><br>
-                <input type="text" id="fname" name="fname" value="" placeholder= "First Name" required><br>
-
-                <label for="lname">Last name:</label><br>
-                <input type="text" id="lname" name="lname" value="" placeholder= "Last Name"><br>
-
-                <label for="email">Email address:</label><br>
-                <input type="email" id="email" name="email" value="" placeholder= "someone@example.com" required><br>
-
-                <label for="text">Phone Number:</label><br>
-                <input type="tel" id="text" name="text" value="" placeholder= "xxx-xxx-xxxx"><br>
-
-                <label for="Gender">Gender:</label><br>
-                <input type="radio" id="male" name="gender" value="male">
-                <label for="male">Male</label><br>
-                <input type="radio" id="female" name="gender" value="female">
-                <label for="female">Female</label><br>
-                <input type="radio" id="other" name="gender" value="other">
-                <label for="other">Rather not mention</label><br>
-
-                <label for="username">Username:</label><br>
-                <input type="text" id="username" name="username" placeholder= "username" required><br>
-
-                <label for="pwd">Password:</label><br>
-                <input type="password" id="pwd" name="pwd" placeholder= "password" required><br>
-
-                <button class="button login">Log In</button><br>
+        <div class="form">
+            <h2> <br>Lets create your account!</h2>
+            <form>
+                <fieldset>
+                    <legend>Personal Details</legend> 
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname" value="" placeholder= "First Name" required><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" value="" placeholder= "Last Name"><br>
+                    
+                    <label for="email">Email address:</label><br>
+                    <input type="email" id="email" name="email" value="" placeholder= "someone@example.com" required><br>
+                    
+                    <label for="text">Phone Number:</label><br>
+                    <input type="tel" id="text" name="text" value="" placeholder= "xxx-xxx-xxxx"><br>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Gender</legend>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Rather not mention</label><br>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Credentials</legend>
+                    <label for="username">Username:</label><br>
+                    <input type="text" id="username" name="username" placeholder="username" required><br>
+                    <label for="pwd">Password:</label><br>
+                    <input type="password" id="pwd" name="pwd" placeholder= "password" required><br>
+                </fieldset>
+                <button class="button Signup">Sign Up</button><br>
             </form>
         </div>
     </body>

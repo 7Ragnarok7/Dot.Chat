@@ -1,63 +1,77 @@
 body {
-  background: url(https://ae01.alicdn.com/kf/HTB1N4ibNVXXXXcUXXXXq6xXFXXXU/Free-Ship-Nice-Home-Decor-Custom-Galaxy-Canvas-Poster-Stylish-Colorful-Out-Space-Wallpaper-Fashion-Wall.jpg);
-  background-size: 100%;
+  background-image: url(https://www.videvo.net/wp-content/uploads/2015/08/videobgs-1.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: cursive;
   font-size: 25px;
+  color: snow;
 }
 
-.heading {
-  text-align: right;
-  padding-left: 7px;
+header {
+  text-align: left;
+  padding-left: 120px;
   font-style: italic;
-  font-weight: bold; 
+  font-size: 20px;
+  font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.logo {
-  text-align: center;
+a {
+  color: red;
+  font-style: italic;
+  font-weight: bold;
+  background-color: black;
+  padding: 3px;
+}
+
+.link:hover {
+  color: chartreuse;
+}
+
+img {
+  background: linear-gradient(45deg, gold, magenta, gold);
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .left {
-  color: mintcream;
   width: 42%;
   float: left;
-  margin: 20px 0 20px 30px;
+  margin: 50px 0 20px 30px;
   border-radius: 300px 0 0 300px;
   text-align: right;
-  padding: 0 20px 0 40px;
-  background-color: rgba(7, 17, 102, 0.8);
-  font-size: 20px;
+  padding: 20px 20px 0 40px;
+  background-color: rgba(0, 0, 0, 0.623);
+  backdrop-filter: blur(7px);
 }
 
 .right {
   width: 42%;
   float: right;
-  margin: 20px 30px 20px 0;
-  padding: 30px 40px 0 20px;
-  text-align: top;
+  margin: 50px 30px 20px 0;
+  padding: 22px 40px 4px 20px;
   border-radius: 0 300px 300px 0;
-  background-color: rgba(7, 17, 102, 0.8);
-  color: mintcream;
+  background-color: rgba(0, 0, 0, 0.623);
+  backdrop-filter: blur(7px);
 }
 
-.loginform{
-  color: mintcream;
+.loginform {
   width: 40%;
   float: left;
-  margin: 0 10px 5px 0;
-  text-align: left;
+  font-style: italic;
 }
 
 .register {
   width: 40%;
-  margin: 70px 0 0 0 ;
-  float:right;
+  margin: 130px 0 0 0;
+  float: right;
   padding: 0 0 0 20px;
   text-align: left;
   border-left-style: dotted;
   border-width: 7px;
-  border-color: orangered;
-  color: mintcream;
+  border-color: rgb(0, 255, 13);
+  font-style: italic;
+  color: aqua ;
 }
 
 .form {
@@ -65,34 +79,35 @@ body {
   text-align: center;
   float: center;
   font-style: italic;
-  font-size:16px;
-  font-weight:bold;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  color: mintcream;
-  margin: 0 auto;
-  display: block;
-  border-radius: 100px 100px 100px 100px;
-  background: rgba(7, 17, 102, 0.8);
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: indianred;
+  margin: auto;
+  border-radius: 100px;
+  background-color: rgba(0, 0, 0, 0.623);
+  backdrop-filter: blur(7px);
 }
 form {
   display: inline-block;
   text-align: left;
+  
 }
 label {
-  font-size:16px;
-  font-weight:bold;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic;
-  color: mintcream;
   text-align: left;
-  padding: 10px;
-  margin: 5px 100px 10px 0;
+  margin: 10px;
+  color: greenyellow;
 }
 input[type="text"],
 input[type="tel"],
 input[type="email"],
 input[type="password"],
 select {
+  width: 75%;
   height: 35px;
   display: inline-block;
   margin: 5px 100px 10px 0;
@@ -126,26 +141,35 @@ input[type="password"]:focus {
   font-weight: bold;
   padding: 5px 10px;
   transition-duration: 0.4s;
-  cursor:  pointer;
+  cursor: pointer;
   border-radius: 100px;
 }
 .login {
+  margin: 20px 0 12px 0;
   background-color: red;
-  color: mintcream;
-  border: 2px solid black;
+  border: 3px solid chartreuse;
 }
 .login:hover {
-  background-color: #4caf50;
-  color: white;
+  background-color: chartreuse;
+  color: red;
 }
 
 .Signup {
-  background-color: #008cba;
-  color: mintcream;
-  border: 2px solid black;
+  background-color: blue;
+  border: 3px solid chartreuse;
+  margin: 20px 0 20px 0;
 }
 
 .Signup:hover {
-  background-color: #4caf50;
-  color: white;
+  background-color: chartreuse;
+  color: red;
+}
+
+legend{
+  color: palevioletred;
+}
+
+fieldset{
+  border-color: aqua;
+  width: 100%;
 }
