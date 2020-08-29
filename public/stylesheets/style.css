@@ -195,3 +195,48 @@ nav {
   background-color: black;
   padding: 5px;
 }
+
+.head{
+  width: 90%;
+  text-align: center;
+  float: center;
+  margin:  20px auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.623);
+  backdrop-filter: blur(7px);
+  border:2px solid aqua;
+}
+
+  .connect{
+    color: mintcream;
+    font-style: italic;
+    padding: 3px;
+    font-size:16px;
+  }
+
+  .connect:hover{
+    color:  aqua;
+    cursor: pointer;
+  }
+
+ .navigation {
+  float: center;
+  background-color: rgba(0, 0, 0, 0.623);
+  backdrop-filter: blur(7px);
+  padding: 10px;
+  border-radius: 50px;
+  text-align: center;
+  border:2px solid aqua;
+ } 
+
+.contact{
+  width: 30%;
+  text-align: center;
+  margin: 10px 2px 0 2px;
+  border-radius: 30px 0 30px 0;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.623);
+  backdrop-filter: blur(7px);
+  border:2px solid aqua;
+  float: left;
+}
