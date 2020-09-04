@@ -1,6 +1,9 @@
-# Project Description
 [![DotChat-ico](https://raw.githubusercontent.com/7Ragnarok7/Dot.Chat/master/public/images/logo.png?raw=true)][page]
-# [*{.}Chat*][page]
+
+# Project Description
+
+## [*{.}Chat*][page]
+
 ##### {.}Dot.Chat is a ***user-friendly*** chatting web application which is made with the motto of keeping your conversations secure. You can use our emojis to bring life to your conversation. Feel free to chat here in Dot Chat.
 
 ### Highlights :-
