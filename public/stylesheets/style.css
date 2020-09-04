@@ -1,6 +1,5 @@
 body {
-  background-image: url(https://www.videvo.net/wp-content/uploads/2015/08/videobgs-1.gif);
-  background-repeat: no-repeat;
+  background: url(https://www.videvo.net/wp-content/uploads/2015/08/videobgs-1.gif);
   background-size: cover;
   font-family: cursive;
   font-size: 25px;
@@ -51,7 +50,7 @@ img {
   margin: 50px 30px 20px 0;
   padding: 22px 40px 4px 20px;
   border-radius: 0 300px 300px 0;
-  background-color: rgba(0, 0, 0, 0.623);
+  background: rgba(0, 0, 0, 0.623);
   backdrop-filter: blur(7px);
 }
 
@@ -67,9 +66,7 @@ img {
   float: right;
   padding: 0 0 0 20px;
   text-align: left;
-  border-left-style: dotted;
-  border-width: 7px;
-  border-color: rgb(0, 255, 13);
+  border-left: dotted 7px rgb(0, 255, 13) ;
   font-style: italic;
   color: aqua;
 }
@@ -83,9 +80,9 @@ img {
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: indianred;
-  margin: auto;
+  margin: auto;  
   border-radius: 100px;
-  background-color: rgba(0, 0, 0, 0.623);
+  background: rgba(0, 0, 0, 0.623);
   backdrop-filter: blur(7px);
 }
 form {
@@ -104,8 +101,8 @@ label {
 input[type="text"],
 input[type="tel"],
 input[type="email"],
-input[type="password"],
-select {
+input[type="password"]
+ {
   width: 75%;
   height: 35px;
   display: inline-block;
@@ -139,28 +136,28 @@ input[type="password"]:focus {
   font-size: 14px;
   font-weight: bold;
   padding: 5px 10px;
-  transition-duration: 0.4s;
+  transition: width 0.4s ease-in-out;
   cursor: pointer;
   border-radius: 100px;
 }
 .login {
   margin-top: 25px;
-  background-color: red;
-  border: 3px solid chartreuse;
+  background: red;
+  border: 3px outset chartreuse;
 }
 .login:hover {
-  background-color: chartreuse;
+  background: chartreuse;
   color: red;
 }
 
 .Signup {
-  background-color: blue;
-  border: 3px solid chartreuse;
+  background: blue;
+  border: 3px outset chartreuse;
   margin: 20px 0 20px 0;
 }
 
 .Signup:hover {
-  background-color: chartreuse;
+  background: chartreuse;
   color: red;
 }
 
@@ -169,7 +166,7 @@ legend {
 }
 
 fieldset {
-  border-color: aqua;
+  border: dashed aqua;
   width: 95%;
 }
 
@@ -178,13 +175,13 @@ fieldset {
   text-align: center;
   padding: 20px;
   border-radius: 50px;
-  background-color: rgba(0, 0, 0, 0.623);
+  background: rgba(0, 0, 0, 0.623);
   backdrop-filter: blur(7px);
 }
 
 .display-right {
   float: right;
-  background-color: rgba(0, 0, 0, 0.623);
+  background: rgba(0, 0, 0, 0.623);
   backdrop-filter: blur(7px);
   padding: 20px;
   border-radius: 50px;
@@ -192,51 +189,51 @@ fieldset {
 }
 
 nav {
-  background-color: black;
+  background: black;
   padding: 5px;
 }
 
-.head{
+.head {
   width: 90%;
   text-align: center;
   float: center;
-  margin:  20px auto;
+  margin: 20px auto;
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.623);
+  background: rgba(0, 0, 0, 0.623);
   backdrop-filter: blur(7px);
-  border:2px solid aqua;
+  border: 2px solid aqua;
 }
 
-  .connect{
-    color: mintcream;
-    font-style: italic;
-    padding: 3px;
-    font-size:16px;
-  }
+.connect {
+  color: mintcream;
+  font-style: italic;
+  padding: 3px;
+  font-size: 16px;
+}
 
-  .connect:hover{
-    color:  aqua;
-    cursor: pointer;
-  }
+.connect:hover {
+  color: aqua;
+  cursor: pointer;
+}
 
- .navigation {
+.navigation {
   float: center;
-  background-color: rgba(0, 0, 0, 0.623);
+  background: rgba(0, 0, 0, 0.623);
   backdrop-filter: blur(7px);
   padding: 10px;
   border-radius: 50px;
   text-align: center;
-  border:2px solid aqua;
- } 
+  border: 2px solid aqua;
+}
 
-.contact{
+.contact {
   width: 30%;
   text-align: center;
   margin: 10px 2px 0 2px;
   border-radius: 30px 0 30px 0;
   padding: 10px;
-  background-color: rgba(0, 0, 0, 0.623);
+  background: rgba(0, 0, 0, 0.623);
   backdrop-filter: blur(7px);
-  border:2px solid aqua;
+  border: 2px solid aqua;
   float: left;
 }
