@@ -64,7 +64,7 @@ $ npm start
 - *To know more about us and contact us directly, [**CLICK HERE.**](public/contact.html)*
 
 ### Reporting :-
- - Report BUGS and SUGGESTIONS at ( https://github.com/7Ragnarok7/Node-Js-Project/issues )
+ - Report BUGS and SUGGESTIONS at [( https://github.com/7Ragnarok7/Node-Js-Project/issues )](https://github.com/7Ragnarok7/Node-Js-Project/issues)
  
  
  [//]: # "References below :-"
@@ -72,7 +72,7 @@ $ npm start
 [node]:<https://nodejs.org/en/>
 [ex]:<https://expressjs.com/>
 [db]:<https://www.postgresql.org/>
-[page]:<https://7ragnarok7.github.io/Dot.Chat>
+[page]:<public/index.html>
 [anurag]:<https://github.com/7Ragnarok7>
 [liza]:<https://github.com/BlazinGirl>
 [subhra]:<https://github.com/subhrapatra>
