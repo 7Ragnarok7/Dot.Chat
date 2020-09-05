@@ -35,7 +35,7 @@ $ npm install
   
 - [***routes/***](routes/) : The ***routes/*** folder contains all the route handlers for the application. Each file in this folder defines a route to the view-template of the queried location.
 
-- [***routings/***](routings/) : The ***routings/*** folder consists of a file named [***siteRoutings***](routings/siteRoutings.js) where all the different routes to reach the different files under the *views** folder are defined. 
+- [***routings/***](routings/) : The ***routings/*** folder consists of a file named [***siteRoutings***](routings/siteRoutings.js) where all the different routes to reach the different files under the ***views*** folder are defined. 
 
 - [***views/***](views/) : The ***views/*** folder contains the files used by the template engine. Express is configured to look here for a matching view when the render method is called. The default template engine is Jade, but Jade has been deprecated in favor of Pug, so we used the --view flag to change the view (template) engine.
 
