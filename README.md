@@ -11,8 +11,8 @@
 - Minimalistic
 - Single-Threaded
 - Real Time Chat
-- Secure Platform
-- Emojis available
+- Secure Platform :relieved:
+- Emojis available :blush: 
 
 ### Requirements for hosting Dot.Chat :-  
 - [Node Js][node]
@@ -27,12 +27,22 @@ $ npm install
 ```
 
 ### Folder Structure :-
-- 
-- 
-- 
-- 
-- 
-- 
+- [***bin/***](bin/) : The ***bin*** folder consists of the [***www***](bin/www) file in which all the actual server configurations are defined.
+
+- [***public/***](public/) : The ***public*** folder consists of the -<br>
+  -[***images/***](public/images/) folder which consists of all the images used in the project. <br>
+  -[***stylesheets/***](public/stylesheets/) folder which consists of the [***style.css***](stylesheets/style.css) file where the styling details of the project is defined.
+  
+- [***routes/***](routes/) : The ***routes/*** folder contains all the route handlers for the application. Each file in this folder defines a route to the view-template of the queried location.
+
+- [***routings/***](routings/) : The ***routings/*** folder consists of a file named [***siteRoutings***](routings/siteRoutings.js) where all the different routes to reach the different files under the *views** folder are defined. 
+
+- [***views/***](views/) : The ***views/*** folder contains the files used by the template engine. Express is configured to look here for a matching view when the render method is called. The default template engine is Jade, but Jade has been deprecated in favor of Pug, so we used the --view flag to change the view (template) engine.
+
+- [***app.js***](app.js) : The ***app.js*** file is basically the starting point of the app. It loads everything and begins serving user requests. It's basically the glue that holds all the parts together.
+Contains the project description, scripts manager, and app manifest. Its main purpose is to track your app's dependencies and their respective versions.
+
+- [***package.json***](package.json) : The ***package.json*** file contains the project description, scripts manager, and app manifest. Its main purpose is to track the app's dependencies and their respective versions.
 
 
 ### Configuration :-
