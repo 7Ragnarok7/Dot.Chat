@@ -5,14 +5,15 @@
 ## [*{.}Chat --> Project Front-End(Click here)*][page]
 
 >##### {.}Dot.Chat is a ***user-friendly*** chatting web application which is made with the motto of keeping your conversations secure.
->You can use our emojis to bring life to your conversation. Feel free to chat here in Dot Chat.
+>You can use our emojis to bring life to your conversation :nail_care: :eyes: :ocean: :dog: :sparkler: .  
+>Feel free to chat here in Dot Chat.
 
 ### Highlights :-
 - Minimalistic
 - Single-Threaded
 - Real Time Chat
-- Secure Platform :relieved:
-- Emojis available :blush: 
+- Secure Platform :email:
+- Emojis available :blush: :sunflower: :moon: :wine_glass: :rocket:
 
 ### Requirements for hosting Dot.Chat :-  
 - [Node Js][node]
