@@ -7,6 +7,7 @@
 >##### {.}Dot.Chat is a ***user-friendly*** chatting web application which is made with the motto of keeping your conversations secure.
 >You can use our emojis to bring life to your conversation :nail_care: :eyes: :ocean: :dog: :sparkler: .  
 >Feel free to chat here in Dot Chat.
+>***Launch the application by clicking the link above(Project Front-End)***
 
 ### Technology Stack :-
 - [Node Js][node]
