@@ -39,13 +39,17 @@
       <form autocomplete="on" method="POST" action="success.html">
         <fieldset>
           <legend>Credentials</legend>
-          <label for="username">Username:</label>
-          <input type="text" name="uname" placeholder="Username/Email" required /><br />
+          <label for="email">Email:</label>
+          <input type="email" name="email" placeholder="Email" required /><br />
           <label for="password">Password:</label>
           <input type="password" name="pwd" placeholder="Password" required />
         </fieldset>
-        <button type="submit" class="login">Log In</button><br />
+        <button type="submit" class="login">Log In</button>
       </form>
+      <a href="recovery.html">
+        <button type="submit" class="login"> Forgot Password?</button><br />
+      </a>
+
     </div>
     <nav style="float: right; margin: 60px 30px 20px 0;">
       <a class="link" style="font-size: 18px;" href="index.html">HOME</a>

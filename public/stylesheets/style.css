@@ -51,7 +51,7 @@ nav {
 button {
   text-align: center;
   display: inline-block;
-  margin: 5px 0 10px 15px;
+  margin: 5px 0 0 15px;
   font-size: 14px;
   font-weight: bold;
   padding: 5px 10px;
@@ -88,7 +88,8 @@ button {
   backdrop-filter: blur(7px);
 }
 
-.left {
+.left ,
+.recovery{
   float: left;
   margin: 50px 0 20px 30px;
   padding: 20px 20px 12px 40px;
@@ -285,4 +286,9 @@ button:hover {
   100% {
     transform: translate(1px, -2px) rotate(-1deg);
   }
+}
+
+.recovery{
+
+
 }
