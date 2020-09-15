@@ -6,6 +6,7 @@
     <meta charset="UTF-8" />
     <title>Recovery Page</title>
     <link rel="stylesheet" href="stylesheets/style.css" />
+    <link rel="icon" href="images/favicon.ico" />
 </head>
 
 <body>
@@ -31,9 +32,18 @@
             <a class="link" href="contact.html">CONTACT US</a>
         </nav>
     </div>
+
+<div class="clear"></div>
+
 <div class="recovery">
-      <label for="email">Enter your registered email:</label><br />
-      <input type="email" name="email" placeholder="someone@example.com" required /><br />
+    <form >
+        <h4 style="text-align: center; padding: 10px;">You will be receiving your password recovery details in the mail that you provide below</h4>
+        <label for="email" style="margin-left:40px">Enter your registered email:</label><br />
+        <input type="email" name="email"  id="news" style="margin-left: 40px " placeholder="someone@example.com" required /><br />
+        <button class="signup" onclick="window.location.href='error.html';" style="position: relative; left: 100px; margin-top: -3px"> Reset</button>
+
+    </form>
+   
 </div>
 </body>
 </html>
