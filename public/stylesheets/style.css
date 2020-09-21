@@ -234,7 +234,8 @@ input[type="password"]:focus {
 /*DEFINES THE HEAD,CONTACT AND NEWSLETTER DIVISION IN THE CONTACT PAGE*/
 .head,
 .contact,
-.newsletter {
+.newsletter,
+.recovery{
   display: inline-block;
   background: rgba(0, 0, 0, 0.623);
   backdrop-filter: blur(7px);
@@ -259,7 +260,8 @@ input[type="password"]:focus {
 }
 
 /*DEFINES THE  ADDITIONAL PROPERTIES OF THE  NEWSLETTER DIVISION IN THE CONTACT PAGE*/
-.newsletter {
+.newsletter,
+.recovery {
   position: relative;
   left: 34%;
   margin-top: 25px;
@@ -272,6 +274,7 @@ input[type="password"]:focus {
   border-radius: 50px;
 }
 
+/*ADJUSTMENT OF THE NEWSLETTER INPUT BOXES*/
 #news {
   width: 45%;
 }
@@ -326,4 +329,8 @@ button:hover {
 .clear{
   clear: both;
 }
-
+/*DEFINES THE CHARACTERISTICS OF THE ELEMENTS IN THE PASSWORD RECOVERY BOX*/
+.recovery{
+padding: 20px 20px 10px 20px;
+text-align: center;
+}

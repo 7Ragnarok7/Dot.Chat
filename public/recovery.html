@@ -36,11 +36,11 @@
 <div class="clear"></div>
 
 <div class="recovery">
-    <form >
-        <h4 style="text-align: center; padding: 10px;">You will be receiving your password recovery details in the mail that you provide below</h4>
-        <label for="email" style="margin-left:40px">Enter your registered email:</label><br />
-        <input type="email" name="email"  id="news" style="margin-left: 40px " placeholder="someone@example.com" required /><br />
-        <button class="signup" onclick="window.location.href='error.html';" style="position: relative; left: 100px; margin-top: -3px"> Reset</button>
+    <form autocomplete="on" method="POST" action="error.html">
+        <h4>You will be receiving your password recovery details in the mail that you provide below</h4>
+        <label for="email" style="text-align:center;">Enter your registered email:</label><br />
+        <input type="email" name="email"  id="news" placeholder="someone@example.com" required />
+        <button type="submit" class="signup"  > Reset</button>
 
     </form>
    
