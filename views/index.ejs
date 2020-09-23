@@ -1,4 +1,67 @@
-<% include ./common/starting %>
-<h1><%= title %></h1>
-<p>Welcome to <%= title %></p>
-<% include ./common/ending %>
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="images/favicon.ico" />
+  <link rel="stylesheet" href="stylesheets/style.css" />
+  <title>Login to Dot.Chat</title>
+</head>
+
+<body>
+  <div class="left">
+    <header>
+      <a href="index.html">
+        <img class="logo" src="images/logo.png" alt="Logo" />
+      </a>
+      <p style="color: red; background-color: black; padding: 5px; font-style: italic; border: outset gold 5px;">
+        Welcome to {...DOT-CHAT...}
+      </p>
+    </header>
+    <div class="left-content">
+      <p><em>--Where the world is your friend</em></p>
+      <p>
+        This project was made with an intention to provide everyone a
+        platform to open up and talk to people matching their interest.
+      </p>
+      <p>
+        To know more about our project,
+        <a class="link" href="https://7ragnarok7.github.io/Dot.Chat/">CLICK HERE</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="right">
+    <div class="loginform">
+      <h2 style="font-style: italic; color: indianred;">
+        <u>Login Below</u>
+      </h2>
+      <form autocomplete="on" method="POST" action="homepage.html">
+        <fieldset>
+          <legend>Credentials</legend>
+          <label for="email">Email:</label>
+          <input type="email" name="email" placeholder="Email" required /><br />
+          <label for="password">Password:</label>
+          <input type="password" name="pwd" placeholder="Password" required />
+        </fieldset>
+        <button type="submit" class="login" style="position: relative; top: 16px;">Log In</button>
+        <button class="login" onclick="window.location.href='recovery.html';"
+          style="position: relative; left: 92px; bottom: 40px;"> Forgot Password?</button>
+      </form>
+    </div>
+    <nav style="float: right; margin: 60px 30px 20px 0;">
+      <a class="link" style="font-size: 18px;" href="index.html">HOME</a>
+      <a class="link" style="font-size: 18px;" href="https://7ragnarok7.github.io/Dot.Chat/">ABOUT</a>
+      <a class="link" style="font-size: 18px;" href="contact.html">CONTACT US</a>
+    </nav>
+    <div class="register">
+      <p>Don't have an account yet?</p>
+      Sign Up by clicking below.<br>
+      <button class="signup" onclick="window.location.href='register.html';" style="position: relative; top: 14px;">Sign
+        Up</button>
+    </div>
+  </div>
+</body>
+
+</html>
