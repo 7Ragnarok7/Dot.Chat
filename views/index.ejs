@@ -26,7 +26,7 @@
       <h2 style="font-style: italic; color: indianred;">
         <u>Login Below</u>
       </h2>
-      <form autocomplete="on" method="POST" action="homepage.html">
+      <form autocomplete="on" method="POST" action="/homepage">
         <fieldset>
           <legend>Credentials</legend>
           <label for="email">Email:</label>
@@ -35,7 +35,7 @@
           <input type="password" name="pwd" placeholder="Password" required />
         </fieldset>
         <button type="submit" class="login" style="position: relative; top: 16px;">Log In</button>
-        <button class="login" onclick="window.location.href='recovery.html';"
+        <button class="login" onclick="window.location.href='/recovery';"
           style="position: relative; left: 92px; bottom: 40px;"> Forgot Password?</button>
       </form>
     </div>
@@ -47,7 +47,7 @@
     <div class="register">
       <p>Don't have an account yet?</p>
       Sign Up by clicking below.<br>
-      <button class="signup" onclick="window.location.href='register.html';" style="position: relative; top: 14px;">Sign
+      <button class="signup" onclick="window.location.href='/register';" style="position: relative; top: 14px;">Sign
         Up</button>
     </div>
 <%include ./common/ending%>

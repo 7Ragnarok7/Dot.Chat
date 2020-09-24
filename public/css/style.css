@@ -194,12 +194,11 @@ input[type="password"]:focus {
   font-style: italic;
 }
 
-
 /*DEFINES THE PROPERTIES OF THE ELEMENTS THAT USE THE FORM, DISPLAY-LEFT AND DISPLAY-RIGHT CLASS*/
 .form,
 .display-left,
-.display-right ,
-.recovery{
+.display-right,
+.recovery {
   text-align: center;
   background: rgba(0, 0, 0, 0.623);
   backdrop-filter: blur(7px);
@@ -235,7 +234,7 @@ input[type="password"]:focus {
 .head,
 .contact,
 .newsletter,
-.recovery{
+.recovery {
   display: inline-block;
   background: rgba(0, 0, 0, 0.623);
   backdrop-filter: blur(7px);
@@ -326,11 +325,11 @@ button:hover {
 }
 
 /*TO CLEAR ANY SPACE AFTER DIVISIONS*/
-.clear{
+.clear {
   clear: both;
 }
 /*DEFINES THE CHARACTERISTICS OF THE ELEMENTS IN THE PASSWORD RECOVERY BOX*/
-.recovery{
-padding: 20px 20px 10px 20px;
-text-align: center;
+.recovery {
+  padding: 20px 20px 10px 20px;
+  text-align: center;
 }

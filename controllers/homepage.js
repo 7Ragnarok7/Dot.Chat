@@ -5,8 +5,8 @@ var router = express.Router();
 router.get('/', function (req, res, next) {
   res.render('homepage', {
      title: 'Welcome to Dot.Chat!',
-     style1: 'template/css/lib/bootstrap.min.css', 
-     style2: "template/css/swipe.min.css", 
+     style1: 'css/lib/bootstrap.min.css', 
+     style2: 'css/swipe.min.css', 
   });
 });
 
