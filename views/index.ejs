@@ -1,19 +1,8 @@
-<!DOCTYPE html>
-
-<html lang="en-US">
-
-<head>
-  <meta charset="UTF-8">
-  <link rel="icon" href="images/favicon.ico" />
-  <link rel="stylesheet" href="stylesheets/style.css" />
-  <title>Login to Dot.Chat</title>
-</head>
-
-<body>
+<%include ./common/starting%>
   <div class="left">
     <header>
-      <a href="index.html">
-        <img class="logo" src="images/logo.png" alt="Logo" />
+      <a href="/">
+        <img class="logo" src="img/logo.png" alt="Logo" />
       </a>
       <p style="color: red; background-color: black; padding: 5px; font-style: italic; border: outset gold 5px;">
         Welcome to {...DOT-CHAT...}
@@ -51,9 +40,9 @@
       </form>
     </div>
     <nav style="float: right; margin: 60px 30px 20px 0;">
-      <a class="link" style="font-size: 18px;" href="index.html">HOME</a>
+      <a class="link" style="font-size: 18px;" href="/">HOME</a>
       <a class="link" style="font-size: 18px;" href="https://7ragnarok7.github.io/Dot.Chat/">ABOUT</a>
-      <a class="link" style="font-size: 18px;" href="contact.html">CONTACT US</a>
+      <a class="link" style="font-size: 18px;" href="/contact">CONTACT US</a>
     </nav>
     <div class="register">
       <p>Don't have an account yet?</p>
@@ -61,7 +50,4 @@
       <button class="signup" onclick="window.location.href='register.html';" style="position: relative; top: 14px;">Sign
         Up</button>
     </div>
-  </div>
-</body>
-
-</html>
+<%include ./common/ending%>

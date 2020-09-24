@@ -12,7 +12,8 @@
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
-    "pg": "^8.3.3"
+    "pg": "^8.3.3",
+    "socket.io": "^2.3.0"
   },
   "description": "Our node js project",
   "main": "app.js",
@@ -24,7 +25,7 @@
   "license": "GPL-3.0-or-later",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/7Ragnarok7/Node-Js-Project.git"
+    "url": "git+https://github.com/7Ragnarok7/Dot.Chat.git"
   },
   "keywords": [
     "Node",
@@ -32,7 +33,7 @@
     "Chat"
   ],
   "bugs": {
-    "url": "https://github.com/7Ragnarok7/Node-Js-Project/issues"
+    "url": "https://github.com/7Ragnarok7/Dot.Chat/issues/"
   },
-  "homepage": "https://github.com/7Ragnarok7/Node-Js-Project#readme"
+  "homepage": "https://7Ragnarok7.github.io/Dot.Chat/"
 }

@@ -1,6 +1,6 @@
 /*BODY OF ALL HTML AND EJS PAGES*/
 body {
-  background: url("https://k33.kn3.net/taringa/A/1/9/8/A/C/MtEden02/473.jpg");
+  background: url("../img/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: "Times New Roman", Times, serif;

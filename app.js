@@ -3,6 +3,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+const errorData = require('./models/error')
 
 var siteRouter = require('./routings/siteRoutings');
 
@@ -34,7 +35,7 @@ app.use(function (err, req, res, next) {
 
   // render the error page
   res.status(err.status || 500);
-  res.render('error');
+  res.render('error', errorData);
 });
 
 module.exports = app;
