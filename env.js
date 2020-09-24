@@ -4,7 +4,7 @@ const env = {
       serverPort: 3000,
       dbHost: 'localhost',
       dbPort: 5432,
-      dbUser: 'dummy',
+      dbUser: 'postgres',
       dbPass: '1234',
       dbName: 'dotchat'
     },
@@ -13,7 +13,7 @@ const env = {
       serverPort: 80,
       dbHost: 'localhost',
       dbPort: 5432,
-      dbUser: 'dummy',
+      dbUser: 'postgres',
       dbPass: '1234',
       dbName: 'dotchat'
     }

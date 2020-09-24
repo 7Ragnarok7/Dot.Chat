@@ -1,0 +1,37 @@
+<%include ./common/starting%>
+
+    <div class="display-left">
+        <a href="/">
+            <img class="logo" src="img/logo.png" alt="Logo" />
+        </a>
+        <p style="
+          color: red;
+          background-color: black;
+          padding: 5px;
+          font-style: italic;
+          border: outset gold 5px;
+        ">
+            Welcome to {...DOT-CHAT...}
+        </p>
+    </div>
+
+    <div class="display-right">
+        <nav>
+            <a class="link" href="/">HOME</a>
+            <a class="link" href="https://7ragnarok7.github.io/Dot.Chat/">ABOUT</a>
+            <a class="link" href="/contact">CONTACT US</a>
+        </nav>
+    </div>
+
+    <div class="clear"></div>
+
+    <div class="recovery">
+        <form autocomplete="on" method="GET" action="/error">
+            <h4>You will be receiving your password recovery details in the mail that you provide below</h4>
+            <label for="email" style="text-align:center;">Enter your registered email:</label><br />
+            <input type="email" name="email" id="news" placeholder="someone@example.com" required />
+            <button type="submit" class="signup"> Reset</button>
+
+        </form>
+
+<%include ./common/ending%>
