@@ -21,15 +21,14 @@ db.checkUserData(Email).then((resp) => {
     res.render('register', { title: 'Register', style: 'css/style.css', msg: 'User exists already!'});
   }
   else {
-    console.log(First_Name, Last_Name, Email, Phone_Number, Gender, Password);
     db.SaveUserData(First_Name, Last_Name, Email, Phone_Number, Gender, Password).then((resp) => {
       res.render('register', { title: 'Register', style: 'css/style.css', msg: 'User registered successfully! <a href="/">LOGIN</a>'});  
-  }, (err) => {
-    res.status(500).send('<h1 style="text-align: center;">500! Internal Server Error!</h1>'); }) 
+  }).catch((err) => {
+    console.log(err);
+    res.status(500).send('<h1 style="text-align: center;">500! Internal Server Error!</h1>'); }); 
   } 
-  },
-  (err) => {
-    res.status(500).send('<h1 style="text-align: center;">500! Internal Server Error!</h1>'); });
-  });
+  }).catch((err) => {
+    res.status(500).send('<h1 style="text-align: center;">500! Internal Server Error!</h1>'); }); });
+  
 
 module.exports = router;
