@@ -25,7 +25,7 @@
 
     <div class="form">
         <h2><br />Lets create your account!</h2>
-        <form autocomplete="on" method="POST" action="">
+        <form autocomplete="on" method="POST" action="/register">
             <fieldset>
                 <legend>Personal Details</legend>
                 <label for="fname">First name:</label><br />
@@ -35,8 +35,6 @@
 
                 <label for="email">Email address:</label><br />
                 <input type="email" name="email" placeholder="someone@example.com" required /><br />
-                <span>User already exists. Try logging i instead</span>
-
                 <label for="text">Phone Number (Optional):</label><br />
                 <input type="tel" name="number" placeholder="xxx-xxx-xxxx" /><br />
             </fieldset>
@@ -62,6 +60,9 @@
                 <span id='message'></span>
             </fieldset>
             <button type="submit" class="signup" style="margin-left: 120px">Sign Up</button><br />
+            <div>
+                <%- msg %>
+            </div>
             <fieldset>
                 <p style="color: coral; padding: 10px;">Have an account already? <br />
                     Login instead by clicking below

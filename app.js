@@ -3,10 +3,8 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-const errorData = require('./models/error')
-
+const errorData = require('./models/error');
 var siteRouter = require('./routings/siteRoutings');
-
 var app = express();
 
 // view engine setup

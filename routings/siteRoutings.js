@@ -5,7 +5,7 @@ var express = require('express'),
     contactRouter = require('../controllers/contact'),
     homepageRouter = require('../controllers/homepage'),
     recoveryRouter = require('../controllers/recovery'),
-    errorRouter = require('../controllers/recovery');
+    errorRouter = require('../controllers/error');
     
 router.use('/', indexRouter);
 router.use('/register', registerRouter);
