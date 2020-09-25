@@ -151,11 +151,7 @@ p {
 }
 @font-face {
   font-family: "Material Icons";
-<<<<<<< HEAD
-  src: url('../fonts/material/MaterialIcons-Regular.eot');
-=======
   src: url(../fonts/material/MaterialIcons-Regular.eot);
->>>>>>> 520fd320d8b42beed9344066521cb0f2c2b68d5e
   src: local("Material Icons"), local("MaterialIcons-Regular"),
     url(../fonts/material/MaterialIcons-Regular.woff2) format("woff2"),
     url(../fonts/material/MaterialIcons-Regular.woff) format("woff"),
