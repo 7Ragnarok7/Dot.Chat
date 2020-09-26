@@ -17,18 +17,18 @@ router.post('/', (req, res, next) => {
 
 
 db.checkUserData(Email).then((resp) => {
-  if(resp.email == Email){
-    res.render('register', { title: 'Register', style: 'css/style.css', msg: 'User exists already!'});
-  }
-  else {
-    db.SaveUserData(First_Name, Last_Name, Email, Phone_Number, Gender, Password).then((resp) => {
-      res.render('register', { title: 'Register', style: 'css/style.css', msg: 'User registered successfully! <a href="/">LOGIN</a>'});  
+    db.saveUserData(First_Name, Last_Name, Email, Phone_Number, Gender, Password).then((resp) => {
+      res.render('register', { title: 'Register', style: 'css/style.css', msg: 'User registered successfully! <a href="/">LOGIN</a><br><br>'});  
   }).catch((err) => {
-    console.log(err);
-    res.status(500).send('<h1 style="text-align: center;">500! Internal Server Error!</h1>'); }); 
-  } 
+    if(err.detail == `Key (email)=(${Email}) already exists.`)
+    {
+      res.render('register', { title: 'Register', style: 'css/style.css', msg: 'User exists already!<br><br>'});
+    }
+    else{
+    res.status(500).send('<h1 style="text-align: center;">500! Internal Server Error!</h1>'); }
+   }); 
   }).catch((err) => {
-    res.status(500).send('<h1 style="text-align: center;">500! Internal Server Error!</h1>'); }); });
-  
+    res.status(500).send('<h1 style="text-align: center;">500! Internal Server Error!</h1>'); }
+  ); });
 
 module.exports = router;

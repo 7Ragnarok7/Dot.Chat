@@ -4,11 +4,10 @@ const registerModel = {
         return new Promise((resolve, reject) => {
         conn.query("select email from users where email = '"+Email+"';", (err, result) => {
           if(err) {
-            console.log(err);
             reject(err);
           }
           else {
-            console.log(result);
+            //console.log(result);
             var resolveData = {
               email: result['rows']
             }
@@ -19,13 +18,16 @@ const registerModel = {
 
       saveUserData: (First_Name, Last_Name, Email, Phone_Number, Gender, Password) => {
       return new Promise((resolve, reject) => {
-        conn.query("Insert into USERS (first_name,last_name,email,phone_number,gender,password) VALUES ("+First_Name+", '"+Last_Name+"', '"+Email+"','"+Phone_Number+"','"+Gender+"', MD5('"+Password+"'));", (err, result) => {
+        conn.query("insert into users (first_name,last_name,email,phone_number,gender,password) values ('"+First_Name+"', '"+Last_Name+"', '"+Email+"','"+Phone_Number+"','"+Gender+"', MD5('"+Password+"'));", (err, result) => {
           if(err) {
-            // console.log(err);
-            reject(err);
+            console.log(err);
+            var rejectData = {
+              detail: result['detail'] };
+              console.log(rejectData);
+            reject(rejectData);
           }
           else {
-            // console.log(result);
+            //console.log(result);
               resolve(1);
           }
         });

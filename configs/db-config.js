@@ -7,4 +7,5 @@ const conn = new Pool({
   password: env.dbPass,
   database: env.dbName
 });
+conn.connect();
 module.exports = conn;
