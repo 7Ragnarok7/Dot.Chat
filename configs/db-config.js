@@ -1,4 +1,4 @@
-const env = require('../env');
+const env = require('./env');
 const { Pool } = require('pg');
 const conn = new Pool({
   host: env.dbHost,

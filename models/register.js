@@ -4,10 +4,11 @@ const registerModel = {
         return new Promise((resolve, reject) => {
         conn.query("select email from users where email = '"+Email+"';", (err, result) => {
           if(err) {
+            // console.log(err);
             reject(err);
           }
           else {
-            //console.log(result);
+            // console.log(result);
             var resolveData = {
               email: result['rows']
             }
@@ -22,8 +23,7 @@ const registerModel = {
           if(err) {
             console.log(err);
             var rejectData = {
-              detail: result['detail'] };
-              console.log(rejectData);
+              detail: err.detail };
             reject(rejectData);
           }
           else {

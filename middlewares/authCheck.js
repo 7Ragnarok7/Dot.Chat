@@ -1,16 +1,23 @@
-var validUserData = {
-      userName: 'surajit',
-      userPass: 'abcd1234'
+var db = require('../models/index');
+var crypto = require('crypto');
+
+var authCheck = (req, res, next) => {
+let Email = req.body.email,
+  Password= crypto.createHash('md5').update(req.body.pwd).digest('hex');
+  console.log(Email,Password);
+  
+db.getUserData(Email, Password).then((resp)=> {
+    if(resp[2] == "" || resp[3] == ""){
+      res.render('index', { title: 'Login', style: 'css/style.css', msg: 'Invalid Email/Password !' });
+    }
+
+    else{
+      // req.params.accessToken = 'AbcdXyz1234';
+      next(resp); 
+      console.log(resp);
+    }
+  }).catch((err) => {
+      res.status(500).send('<h1 style="text-align: center;">500! Internal Server Error!</h1>'); });
     };
-    
-    var authCheck = function(req, res, next) {
-      if(req.params.userName == validUserData.userName && req.params.userPass == validUserData.userPass) {
-        req.params.accessToken = 'AbcdXyz1234';
-        next();
-      }
-      else {
-        res.send('Invalid User');
-      }
-    };
-    
-    module.exports = authCheck;
+
+  module.exports = authCheck;
