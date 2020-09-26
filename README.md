@@ -37,8 +37,10 @@ $ npm install
 ```
 
 ### Configuration :-
-- The Database Configurations are stored in configs/db-config.js
-- The server Configurations are stored in env.js
+- 
+- 
+- 
+-
 
 ### Usage :-
 - Start the server
