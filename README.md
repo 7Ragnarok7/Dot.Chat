@@ -44,49 +44,49 @@ $ npm start
 - Ctrl+C to stop the server
 
 ### Folder Structure :-
-- [***bin/***]  : This folder consists of the www file in which all the node server configurations are defined.
+- [***bin/***](bin/)  : This folder consists of the ***www***]file in which all the node server configurations are defined.
 
-- [***configs/***]  : This folder consists of the :-
-  - [***db-config.js***] 
-  - [***env.js***] 
+- [***configs/***](configs/)  : This folder consists of the :-
+  - ***db-config.js***
+  - ***env.js***
 
-- [***controllers/***]  : This folder consists of the following :-
-  - [***contact.js***] 
-  - [***error.js***] 
-  - [***homepage.js***] 
-  - [***index.js***] 
-  - [***recovery.js***] 
-  - [***register.js***] 
+- [***controllers/***](controllers/)  : This folder consists of the following :-
+  - ***contact.js***
+  - ***error.js***
+  - ***homepage.js***
+  - ***index.js***
+  - ***recovery.js***
+  - ***register.js***
 
-- [***html/***] : This folder consists of the following :-
-  - [***images***]
-  - [***javascripts***]
-  - [***stylesheets***]
-  - [***templates***]
-  - [***contact.html***](html/contact.html) 
-  - [***error.html***](html/error.html) 
-  - [***homepage.html***](html/homepage.html)    
-  - [***index.html***](html/index.html) 
-  - [***recovery.html***](html/recovery.html) 
-  - [***register.html***](html/register.html)
+- [***html/***](html/) : This folder consists of the following :-
+  - ***images***
+  - ***javascripts***
+  - ***stylesheets***
+  - ***templates***
+  - ***contact.html*** 
+  - ***error.html*** 
+  - ***homepage.html***    
+  - ***index.html*** 
+  - ***recovery.html*** 
+  - ***register.html***
 
-- [***middlewares/***]  : This folder consists of authCheck.js file.
+- [***middlewares/***](middlewares/)  : This folder consists of authCheck.js file.
   
-- [***models/***] : This folder consists of files as follows :-
-  - [***error.js***]
-  - [***homepage.js***] 
-  - [***index.js***] 
-  - [***register.js***] 
+- [***models/***](models/) : This folder consists of files as follows :-
+  - ***error.js***
+  - ***homepage.js*** 
+  - ***index.js*** 
+  - ***register.js***
 
-- [***public/***] : This folder consists of the :-
-  - [***img/***]  folder which consists of all the images used in the project.
-  - [***css/***]  folder which consists of the style.css file where the styling details of the project is defined.
-  - [***js/***]  folder which consists of the bootstrap.min.js, check.js, swipe.min.js, jquery-3.3.1.slim.min.js, vendor/ files and folders where the javascripts are defined. 
-  - [***fonts/***] folder which consists of the fonts that are used in the homepage.
+- [***public/***](public/) : This folder consists of the :-
+  - ***img/***  folder which consists of all the images used in the project.
+  - ***css/***  folder which consists of the style.css file where the styling details of the project is defined.
+  - ***js/***  folder which consists of the bootstrap.min.js, check.js, swipe.min.js, jquery-3.3.1.slim.min.js, vendor/ files and folders where the javascripts are defined. 
+  - ***fonts/*** folder which consists of the fonts that are used in the homepage.
 
-- [***routings/***] : This folder consists of a file named siteRoutings where all the different routes to reach the different files under the views/ folder are defined.
+- [***routings/***](routings/) : This folder consists of a file named siteRoutings where all the different routes to reach the different files under the views/ folder are defined.
 
-- [***views/***]  : This folder contains the files used by the template engine. Express is configured to look here for a matching view when the render method is called. The default view (template) engine used in our project is ejs.
+- [***views/***](views/)  : This folder contains the files used by the template engine. Express is configured to look here for a matching view when the render method is called. The default view (template) engine used in our project is ejs.
 
 - [***app.js***](app.js) : This file contains the configurations to set up the initial connection of the application. It loads up all the modules and begins serving user requests.
 
