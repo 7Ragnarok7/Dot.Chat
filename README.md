@@ -44,7 +44,7 @@ $ npm start
 - Ctrl+C to stop the server
 
 ### Folder Structure :-
-- [***bin/***](bin/)  : This folder consists of the ***www***]file in which all the node server configurations are defined.
+- [***bin/***](bin/)  : This folder consists of the ***www*** file in which all the node server configurations are defined.
 
 - [***configs/***](configs/)  : This folder consists of the :-
   - ***db-config.js***
