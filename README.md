@@ -1,4 +1,4 @@
-[![DotChat-ico](https://raw.githubusercontent.com/7Ragnarok7/Dot.Chat/master/public/img/logo.png?raw=true)](https://https://7ragnarok7.github.io/Dot.Chat/) &emsp; [![Node-ico](https://raw.githubusercontent.com/7Ragnarok7/Dot.Chat/master/public/img/node.png?raw=true)][node] 
+[![DotChat-ico](https://raw.githubusercontent.com/7Ragnarok7/Dot.Chat/master/public/img/logo.png?raw=true)](https://7Ragnarok7.github.io/Dot.Chat/) &emsp; [![Node-ico](https://raw.githubusercontent.com/7Ragnarok7/Dot.Chat/master/public/img/node.png?raw=true)][node] 
 
 # Project Description
 
