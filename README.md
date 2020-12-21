@@ -1,4 +1,4 @@
-[![DotChat-ico](https://raw.githubusercontent.com/7Ragnarok7/Dot.Chat/master/public/img/logo.png?raw=true)][page] &emsp; [![Node-ico](https://raw.githubusercontent.com/7Ragnarok7/Dot.Chat/master/public/img/node.png?raw=true)][node] 
+[![DotChat-ico](https://raw.githubusercontent.com/7Ragnarok7/Dot.Chat/master/public/img/logo.png?raw=true)](https://https://7ragnarok7.github.io/Dot.Chat/) &emsp; [![Node-ico](https://raw.githubusercontent.com/7Ragnarok7/Dot.Chat/master/public/img/node.png?raw=true)][node] 
 
 # Project Description
 
@@ -35,13 +35,6 @@ $ git clone https://github.com/7Ragnarok7/Dot.Chat.git
 $ cd Dot.Chat
 $ npm install
 ```
-
-### Configuration :-
-- 
-- 
-- 
--
-
 ### Usage :-
 - Start the server
 ```sh
@@ -51,19 +44,49 @@ $ npm start
 - Ctrl+C to stop the server
 
 ### Folder Structure :-
-- [***bin/***](bin/) : This folder consists of the [***www***](bin/www) file in which all the node server configurations are defined.
+- [***bin/***]  : This folder consists of the www file in which all the node server configurations are defined.
 
-- [***public/***](public/) : This folder consists of the :-  
+- [***configs/***]  : This folder consists of the :-
+  - [***db-config.js***] 
+  - [***env.js***] 
 
-  - [***images/***](public/images/) folder which consists of all the images used in the project.  
+- [***controllers/***]  : This folder consists of the following :-
+  - [***contact.js***] 
+  - [***error.js***] 
+  - [***homepage.js***] 
+  - [***index.js***] 
+  - [***recovery.js***] 
+  - [***register.js***] 
+
+- [***html/***] : This folder consists of the following :-
+  - [***images***]
+  - [***javascripts***]
+  - [***stylesheets***]
+  - [***templates***]
+  - [***contact.html***](html/contact.html) 
+  - [***error.html***](html/error.html) 
+  - [***homepage.html***](html/homepage.html)    
+  - [***index.html***](html/index.html) 
+  - [***recovery.html***](html/recovery.html) 
+  - [***register.html***](html/register.html)
+
+- [***middlewares/***]  : This folder consists of authCheck.js file.
   
-  - [***stylesheets/***](public/stylesheets/) folder which consists of the [***style.css***](stylesheets/style.css) file where the styling details of the project is defined.
- 
- - [***views/***](views/) : This folder contains the files used by the template engine. Express is configured to look here for a matching view when the render method is called. The default view (template) engine used in our project is [***ejs***][ejs].
- 
-- [***routes/***](routes/) : This folder contains all the route handlers for the application. Each file in this folder defines a route to the view-template of the queried location.
+- [***models/***] : This folder consists of files as follows :-
+  - [***error.js***]
+  - [***homepage.js***] 
+  - [***index.js***] 
+  - [***register.js***] 
 
-- [***routings/***](routings/) : This folder consists of a file named [***siteRoutings***](routings/siteRoutings.js) where all the different routes to reach the different files under the [***views/***](views/) folder are defined. 
+- [***public/***] : This folder consists of the :-
+  - [***img/***]  folder which consists of all the images used in the project.
+  - [***css/***]  folder which consists of the style.css file where the styling details of the project is defined.
+  - [***js/***]  folder which consists of the bootstrap.min.js, check.js, swipe.min.js, jquery-3.3.1.slim.min.js, vendor/ files and folders where the javascripts are defined. 
+  - [***fonts/***] folder which consists of the fonts that are used in the homepage.
+
+- [***routings/***] : This folder consists of a file named siteRoutings where all the different routes to reach the different files under the views/ folder are defined.
+
+- [***views/***]  : This folder contains the files used by the template engine. Express is configured to look here for a matching view when the render method is called. The default view (template) engine used in our project is ejs.
 
 - [***app.js***](app.js) : This file contains the configurations to set up the initial connection of the application. It loads up all the modules and begins serving user requests.
 
@@ -78,7 +101,7 @@ $ npm start
 >***We are students of Brainware University located in Barasat, Kolkata, West Bengal, India.   
 >We are currently in our final year at college and are look forward to do greater projects in near future.  
 >We have worked on this product as a project of our industrial training on Node Js.  
->To know more about us and contact us directly, [**CLICK HERE.**](public/contact.html)***
+>To know more about us and contact us directly, [**CLICK HERE.**](html/contact.html)***
 
 ### Reporting :-
  - Report BUGS and SUGGESTIONS at [( https://github.com/7Ragnarok7/Node-Js-Project/issues )](https://github.com/7Ragnarok7/Node-Js-Project/issues)
@@ -89,7 +112,7 @@ $ npm start
 [node]:<https://nodejs.org/en/>
 [ex]:<https://expressjs.com/>
 [db]:<https://www.postgresql.org/>
-[page]:<public/index.html>
+[page]:<html/index.html>
 [anurag]:<https://github.com/7Ragnarok7>
 [liza]:<https://github.com/BlazinGirl>
 [subhra]:<https://github.com/subhrapatra>
